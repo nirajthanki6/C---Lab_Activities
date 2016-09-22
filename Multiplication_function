@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int mul(int a, int b);
+
+int main()
+{
+	int x;
+	int y;
+	
+	cout << "Enter First Number =" << endl;
+	cin >> x;
+
+	cout << "Enter Second Number =" << endl;
+	cin >> y;
+	
+	cout << "Multiplication =" << mul(x, y) <<endl;
+	system("pause");
+}
+
+int mul(int a, int b)
+{
+	return a*b;
+
+}
